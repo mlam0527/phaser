@@ -16,6 +16,7 @@
     "url": "https://photonstorm@github.com/photonstorm/phaser.git"
   },
   "scripts": {
+    "server": "http-server",
     "beta": "npm publish --tag beta",
     "help": "node scripts/help.js",
     "build": "webpack --config config/webpack.config.js",
@@ -81,6 +82,7 @@
   "dependencies": {
     "eventemitter3": "^4.0.7",
     "exports-loader": "^1.1.0",
+    "http-server": "^0.12.3",
     "imports-loader": "^1.1.0",
     "path": "^0.12.7"
   }
